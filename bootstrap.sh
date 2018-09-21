@@ -70,6 +70,7 @@ apps=(
   firefox
   google-chrome
   hyper
+  istat-menus
   kap
   spotify
   sketch
