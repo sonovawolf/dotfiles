@@ -72,8 +72,9 @@ apps=(
   hyper
   istat-menus
   kap
-  spotify
+  moom
   sketch
+  spotify
   transmit
   vlc
   visual-studio-code
