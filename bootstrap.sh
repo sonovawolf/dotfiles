@@ -65,6 +65,7 @@ mas install "${masapps[@]}"
 apps=(
   1password
   alfred
+  bartender
   beaker-browser
   dropbox
   firefox
