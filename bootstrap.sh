@@ -74,6 +74,7 @@ apps=(
   istat-menus
   kap
   moom
+  notion
   sketch
   spotify
   transmit
