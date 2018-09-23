@@ -30,6 +30,7 @@ binaries=(
   shellcheck
   ssh-copy-id
   wget
+  zsh
 )
 
 echo "> Installing useful binaries..."
@@ -42,6 +43,9 @@ brew install node
 # Some npm defaults
 npm config set init-license "MIT"
 npm config set init-version "0.0.1"
+
+# Install Oh My Zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 # Install brew cask
 echo "> Installing brew cask..."
