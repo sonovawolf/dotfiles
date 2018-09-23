@@ -3,3 +3,6 @@ git config --global core.editor "code --wait"
 
 # Set global .gitignore file
 git config --global core.excludesfile .gitignore_global
+
+# Set destination of push to current matching branch
+git config --global push.default current

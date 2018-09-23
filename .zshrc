@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # Git
 alias ga='git add'
 alias gp='git push'
+alias gpo='git push origin'
+alias gpom='git push origin master'
 alias gl='git log'
 alias gs='git status'
 alias gd='git diff'
