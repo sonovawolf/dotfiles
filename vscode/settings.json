@@ -1,4 +1,4 @@
 {
-    "workbench.colorTheme": "Nord",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "ayu", // separators between panels
 }

@@ -132,7 +132,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'nord-hyper',
+    'hyper-ayu',
     'hypercwd',
     'hyper-search',
     'hyper-quit',
