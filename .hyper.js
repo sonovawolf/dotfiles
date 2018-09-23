@@ -133,6 +133,10 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'nord-hyper',
+    'hypercwd',
+    'hyper-search',
+    'hyper-quit',
+    'hyper-pane',
   ],
 
   // in development, you can create a directory under
