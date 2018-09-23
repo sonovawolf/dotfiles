@@ -96,9 +96,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# -------------------------------------------------------------------
+
 # Git
-# -------------------------------------------------------------------
 alias ga='git add'
 alias gp='git push'
 alias gl='git log'
@@ -114,3 +113,13 @@ alias gpu='git pull'
 alias gcl='git clone'
 alias gta='git tag -a -m'
 alias gf='git reflog'
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles FALSE; killall Finder"
+
+# Navigation shortcuts
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
