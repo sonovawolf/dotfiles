@@ -1,4 +1,14 @@
 {
-    "workbench.colorTheme": "Ayu Dark",
-    "workbench.iconTheme": "ayu",
+    "workbench.colorTheme": "Nord",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "react",
+    "editor.fontFamily": "IBM Plex Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": { // Italicize comments
+        "textMateRules": [{
+                "scope": "comment",
+                "settings": {
+                        "fontStyle": "italic"
+                }
+        }]
+    },
 }
