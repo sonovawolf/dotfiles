@@ -64,6 +64,7 @@ masapps=(
   1333542190 # 1password
   803453959  # Slack
   413965349  # Soulver
+  880001334  # Reeder
 )
 
 echo "> Install App Store applications..."
@@ -72,9 +73,13 @@ mas install "${masapps[@]}"
 apps=(
   1password
   alfred
+  arq
+  atom
+  backblaze
   bartender
   beaker-browser
   dropbox
+  expressvpn
   firefox
   google-chrome
   hyper
@@ -86,7 +91,6 @@ apps=(
   spotify
   transmit
   vlc
-  visual-studio-code
 )
 
 echo "> Installing applications..."

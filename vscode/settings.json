@@ -2,15 +2,22 @@
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.activeIconPack": "react",
     "editor.fontFamily": "IBM Plex Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.tokenColorCustomizations": { // Italicize comments
-        "textMateRules": [{
+    "editor.tokenColorCustomizations": {
+        // Italicize comments
+        "textMateRules": [
+            {
                 "scope": "comment",
                 "settings": {
-                        "fontStyle": "italic"
+                    "fontStyle": "italic"
                 }
-        }]
+            }
+        ]
     },
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "SynthWave '84",
     "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
