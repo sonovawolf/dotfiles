@@ -62,7 +62,6 @@ masapps=(
   409203825  # Numbers
   409201541  # Pages
   1333542190 # 1password
-  803453959  # Slack
   904280696  # Things (3.13.13)
   1529448980 # Reeder (5.0.7)
   1451400394 # bookmarker for pinboard (1.11)
@@ -73,33 +72,33 @@ masapps=(
   405399194  # Kindle (1.31.0)
   1467460892 # PinButton (1.0)
   1147396723 # WhatsApp (2.2126.11)
-  803453959  # Slack (4.17.0)
 )
 
 echo "> Install App Store applications..."
 mas install "${masapps[@]}"
 
 apps=(
-  1password
   alfred
   arq
   bartender
-  dropbox
-  expressvpn
   google-chrome
   istat-menus
   moom
   notion
   soulver
   slack
-  things
   spotify
   figma
   iterm2
+  visual-studio-code
+  raycast
 )
 
 echo "> Installing applications..."
 brew install --cask "${apps[@]}"
 
-qlmanage -r
-qlmanage -r cache
+# Remove outdated versions from cellar
+Echo "> Cleaning up…"
+brew cleanup
+
+Echo "> ✨ Done! ✨"
