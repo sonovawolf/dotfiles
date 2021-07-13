@@ -61,8 +61,6 @@ masapps=(
   409201541  # Pages
   1333542190 # 1password
   803453959  # Slack
-  413965349  # Soulver
-  880001334  # Reeder
 )
 
 echo "> Install App Store applications..."
@@ -81,11 +79,15 @@ apps=(
   istat-menus
   moom
   notion
+  reeder
+  soulver
+  slack
+  things
   spotify
 )
 
 echo "> Installing applications..."
-brew cask install --appdir="/Applications" "${apps[@]}"
+brew install --cask "${apps[@]}"
 
 qlmanage -r
 qlmanage -r cache
