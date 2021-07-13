@@ -1,7 +1,7 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.activeIconPack": "react",
-    "editor.fontFamily": "IBM Plex Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Jetbrains Mono, Input, Menlo, Monaco, 'Courier New', monospace",
     "editor.tokenColorCustomizations": {
         // Italicize comments
         "textMateRules": [
@@ -13,11 +13,20 @@
             }
         ]
     },
-    "workbench.colorTheme": "SynthWave '84",
+    "gitlens.currentLine.enabled": false,
+    "workbench.colorTheme": "GitHub Dark",
     "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 0,
     "editor.formatOnSave": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 16,
+    "editor.fontSize": 13,
+    "editor.formatOnPaste": true,
+    "customizeUI.font.regular": "Jetbrains Mono",
+    "customizeUI.font.monospace": "Jetbrains Mono",
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 }

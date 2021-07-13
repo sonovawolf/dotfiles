@@ -36,7 +36,7 @@ binaries=(
 echo "> Installing useful binaries..."
 brew install "${binaries[@]}"
 
-# Install node and iojs
+# Install node
 echo "> Installing node..."
 brew install node
 
@@ -56,8 +56,6 @@ brew tap caskroom/cask
 
 # Install applications
 masapps=(
-  775737590  # iA Writer
-  692867256  # Simplenote
   409183694  # Keynote
   409203825  # Numbers
   409201541  # Pages
@@ -77,31 +75,17 @@ apps=(
   atom
   backblaze
   bartender
-  beaker-browser
   dropbox
   expressvpn
-  firefox
   google-chrome
-  hyper
   istat-menus
-  kap
   moom
   notion
-  sketch
   spotify
-  transmit
-  vlc
 )
 
 echo "> Installing applications..."
 brew cask install --appdir="/Applications" "${apps[@]}"
-
-# Install quicklook plugins
-qlplugins=(
-  qlcolorcode
-  qlmarkdown
-  qlstephen
-)
 
 echo "> Installing QuickLook plugins..."
 brew cask install "${qlplugins[@]}"

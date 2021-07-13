@@ -64,6 +64,7 @@ ZSH_THEME=""
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  alias-finder
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -127,5 +128,15 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+# Switching node versions
+alias node12='export PATH="/usr/local/opt/node@12/bin:$PATH"'
+
+# Open this file
+alias zshconfig='code ~/.zshrc'
+
 autoload -U promptinit; promptinit
 prompt pure
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
