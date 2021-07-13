@@ -52,7 +52,7 @@ npm install --global pure-prompt
 
 # Install brew cask
 echo "> Installing brew cask..."
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 # Install applications
 masapps=(
