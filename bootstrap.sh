@@ -59,11 +59,21 @@ brew tap homebrew/cask
 
 # Install applications
 masapps=(
-  409183694  # Keynote
   409203825  # Numbers
   409201541  # Pages
   1333542190 # 1password
   803453959  # Slack
+  904280696  # Things (3.13.13)
+  1529448980 # Reeder (5.0.7)
+  1451400394 # bookmarker for pinboard (1.11)
+  1480068668 # Messenger (97.11.116)
+  409183694  # Keynote (11.1)
+  1437138382 # WhatFont (2.1.1)
+  1460836908 # GoPro Player (1.3.2)
+  405399194  # Kindle (1.31.0)
+  1467460892 # PinButton (1.0)
+  1147396723 # WhatsApp (2.2126.11)
+  803453959  # Slack (4.17.0)
 )
 
 echo "> Install App Store applications..."
@@ -80,11 +90,12 @@ apps=(
   istat-menus
   moom
   notion
-  reeder 5
   soulver
   slack
   things
   spotify
+  figma
+  iterm2
 )
 
 echo "> Installing applications..."
