@@ -87,8 +87,5 @@ apps=(
 echo "> Installing applications..."
 brew cask install --appdir="/Applications" "${apps[@]}"
 
-echo "> Installing QuickLook plugins..."
-brew cask install "${qlplugins[@]}"
-
 qlmanage -r
 qlmanage -r cache
