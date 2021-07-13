@@ -18,6 +18,9 @@ if test ! $(which brew); then
   echo ""
 fi
 
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # Update homebrew recipes
 brew update
 
@@ -70,8 +73,6 @@ apps=(
   1password
   alfred
   arq
-  atom
-  backblaze
   bartender
   dropbox
   expressvpn
@@ -79,7 +80,7 @@ apps=(
   istat-menus
   moom
   notion
-  reeder
+  reeder 5
   soulver
   slack
   things
