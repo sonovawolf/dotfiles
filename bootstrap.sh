@@ -34,6 +34,7 @@ binaries=(
   ssh-copy-id
   wget
   zsh
+  pure
 )
 
 echo "> Installing useful binaries..."
@@ -49,9 +50,6 @@ npm config set init-version "0.0.1"
 
 # Install Oh My Zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-
-# Install Pure prompt
-npm install --global pure-prompt
 
 # Install brew cask
 echo "> Installing brew cask..."
