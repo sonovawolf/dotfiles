@@ -81,17 +81,18 @@ apps=(
   alfred
   arq
   bartender
+  figma
   google-chrome
+  hyper
   istat-menus
+  iterm2
   moom
   notion
-  soulver
-  slack
-  spotify
-  figma
-  iterm2
-  visual-studio-code
   raycast
+  slack
+  soulver
+  spotify
+  visual-studio-code
 )
 
 echo "> Installing applications..."
