@@ -79,8 +79,10 @@ apps=(
   alfred
   arq
   bartender
+  discord
   figma
   google-chrome
+  google-drive
   hyper
   istat-menus
   iterm2
