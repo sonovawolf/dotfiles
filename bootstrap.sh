@@ -87,12 +87,14 @@ apps=(
   istat-menus
   iterm2
   moom
+  obsidian
   notion
   raycast
   slack
   soulver
   spotify
   visual-studio-code
+  zoom
 )
 
 echo "> Installing applications..."
