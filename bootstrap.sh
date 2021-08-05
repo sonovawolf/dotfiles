@@ -21,6 +21,12 @@ fi
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile
 eval $(/opt/homebrew/bin/brew shellenv)
 
+# Install and use latest zsh
+echo "> Changing shell to latest zsh version..."
+brew install zsh
+echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells > /dev/null
+chsh -s /usr/local/bin/zsh
+
 # Update homebrew recipes
 brew update
 
@@ -47,9 +53,6 @@ brew install node
 # Some npm defaults
 npm config set init-license "MIT"
 npm config set init-version "0.0.1"
-
-# Install Oh My Zsh
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 # Install brew cask
 echo "> Installing brew cask..."

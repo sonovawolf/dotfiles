@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Note: Obsidian v0.8.15+ required
-# Install via: 1) https://obsidian.md 2) brew install --cask obsidian
-
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Github: Tailscale — New Issue
