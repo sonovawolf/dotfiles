@@ -16,4 +16,4 @@
 
 # The name of your vault, e.g., "Knowledge Base"
 
-open "https://docs.google.com/document/create"
+open "https://docs.new"
