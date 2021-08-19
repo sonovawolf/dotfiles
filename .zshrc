@@ -107,6 +107,7 @@ alias gl='git log'
 alias gs='git status'
 alias gd='git diff'
 alias gm='git commit -m'
+alias gms='git commit -S -m'
 alias gma='git commit -am'
 alias gb='git branch'
 alias gc='git checkout'
@@ -128,8 +129,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-# Switching node versions
-alias node12='export PATH="/usr/local/opt/node@12/bin:$PATH"'
+# Tailscale
+alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 
 # Open this file
 alias zshconfig='code ~/.zshrc'

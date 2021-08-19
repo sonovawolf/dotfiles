@@ -29,4 +29,7 @@
     "customizeUI.font.monospace": "Jetbrains Mono",
     "workbench.preferredDarkColorTheme": "Default Light+",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.find.seedSearchStringFromSelection": false,
+    "go.toolsManagement.autoUpdate": true,
+    "security.workspace.trust.untrustedFiles": "open",
 }
