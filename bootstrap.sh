@@ -78,10 +78,6 @@ masapps=(
 echo "> Install App Store applications..."
 mas install "${masapps[@]}"
 
-echo "> Tapping and installing third-party apps..."
-brew tap federico-terzi/espanso
-brew install espanso
-
 apps=(
   alfred
   arq
