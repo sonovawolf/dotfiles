@@ -91,6 +91,7 @@ apps=(
   google-chrome
   google-drive
   hyper
+  iina
   istat-menus
   iterm2
   moom
