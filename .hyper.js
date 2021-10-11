@@ -13,7 +13,7 @@ module.exports = {
 
     // font family with optional fallbacks
     fontFamily:
-      '"Input", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"SF Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -143,8 +143,8 @@ module.exports = {
       // Default is false
       darkmode: true,
       borders: true,
-      hideControls: true,
       accentColor: "magenta",
+      vibrancy: false,
     },
   },
 
@@ -154,13 +154,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    "hyper-hypest",
-    "hypercwd",
-    "hyper-search",
-    "hyper-tab-icons",
-    "hyper-statusline",
-  ],
+  plugins: ["hyper-hypest", "hypercwd", "hyper-search", "hyper-statusline"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
